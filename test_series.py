@@ -11,6 +11,6 @@ def test_fib_one():
     assert fib(1) == 0
 
 def test_fib_two():
-  '''Test fib function to check value 2 of fibonacci'''
+    '''Test fib function to check value 2 of fibonacci'''
     from series import fib
     assert fib(2) == 1
