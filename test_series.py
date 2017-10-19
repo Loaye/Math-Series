@@ -74,3 +74,8 @@ def test_sum_series_lucas():
     '''Test sum_series to check value of eight for x=2 y=1'''
     from series import sum_series
     assert sum_series(8, 2, 1) == 29
+
+def test_sum_series_five_three_one():
+    '''Test sequence is... 3, 1, 4, 5, 9, 14, 23'''
+    from series import sum_series
+    assert sum_series(5, 3, 1) == 9
