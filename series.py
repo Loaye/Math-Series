@@ -21,4 +21,5 @@ def lucas(n):
     elif n == 2:
         return 1
     else:
-        pass
+        return fib(n - 1) + fib(n + 1)
+

@@ -37,6 +37,16 @@ def test_lucas_one():
     assert lucas(1) == 2
 
 def test_lucas_two():
-    '''Test lucas function to check value of 0'''
+    '''Test lucas function to check value of 2'''
     from series import lucas
     assert lucas(2) == 1
+
+def test_lucas_four():
+    '''Test lucas function to check value of 4'''
+    from series import lucas
+    assert lucas(4) == 4
+
+def test_lucas_eight():
+    '''Test lucas function to check value of 8'''
+    from series import lucas
+    assert lucas(8) == 29 
