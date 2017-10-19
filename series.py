@@ -23,3 +23,5 @@ def lucas(n):
     else:
         return fib(n - 1) + fib(n + 1)
 
+def sum_series(n, x=0, y=1):
+    pass
