@@ -24,3 +24,19 @@ def test_fib_seven():
     '''Test fib function to check value 7 of fibonacci'''
     from series import fib
     assert fib(7) == 8
+
+
+def test_lucas_zero():
+    '''Test lucas function to check value of 0'''
+    from series import lucas
+    assert lucas(0) == 0
+
+def test_lucas_one():
+    '''Test lucas function to check value of 1'''
+    from series import lucas
+    assert lucas(1) == 2
+
+def test_lucas_two():
+    '''Test lucas function to check value of 0'''
+    from series import lucas
+    assert lucas(2) == 1
