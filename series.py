@@ -36,3 +36,8 @@ def sum_series(n, x=0, y=1):
             y = z
             series_list.append(z)
         return series_list[n - 1]
+
+
+if __name__ == "__main__":
+    '''This module runs, defines, and implements 3 mathematical function'''
+    print("fibonacci, lucas, and sum series returns nth value in a series")
