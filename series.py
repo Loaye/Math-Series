@@ -1,7 +1,7 @@
-'''Math series to be tested with test_series.py'''
+"""Math series to be tested with test_series.py"""
 
 def fib(n):
-    '''Fibonacci sequence and function'''
+    """Fibonacci sequence and function"""
     if n == 0:
         return 0
     elif n == 1:
@@ -13,7 +13,7 @@ def fib(n):
 
 
 def lucas(n):
-    '''Lucas sequence and function'''
+    """Lucas sequence and function"""
     if n == 0:
         return 0
     elif n == 1:
@@ -25,7 +25,7 @@ def lucas(n):
 
 
 def sum_series(n, x=0, y=1):
-    '''sum_series function to find any value in any sequence given'''
+    """sum_series function to find any value in any sequence given"""
     if n == 0:
         return 0
     else:
@@ -39,5 +39,24 @@ def sum_series(n, x=0, y=1):
 
 
 if __name__ == "__main__":
-    '''This module runs, defines, and implements 3 mathematical function'''
-    print("fibonacci, lucas, and sum series returns nth value in a series")
+    output = """
+    This module runs, defines, and implements 3 mathematical function
+
+    fib(n):
+    Returns the nth value in the fibonacci series
+
+    >>> fibonacci(2)
+    1
+
+    lucas(n):
+    Returns the nth value in the lucas series
+
+    >>> lucas(2)
+    1
+
+    >>> sum_series(5, 3, 1)
+    9
+    """
+
+
+    print("")

@@ -1,4 +1,4 @@
-'''Test for math series.'''
+"""Test for math series."""
 
 def test_fib_zero():
     '''Test fib function to check value 0 of fibonacci'''
@@ -61,21 +61,21 @@ def test_lucas_eight():
 
 
 def test_sum_series_zero():
-    '''Test sum_series to check value of 0'''
+    """Test sum_series to check value of 0"""
     from series import sum_series
     assert sum_series(0) == 0
 
 def test_sum_series_fib():
-    '''Test sum_series to check value of 1 for x and y defaults'''
+    """Test sum_series to check value of 1 for x and y defaults"""
     from series import sum_series
     assert sum_series(1) == 0
 
 def test_sum_series_lucas():
-    '''Test sum_series to check value of eight for x=2 y=1'''
+    """Test sum_series to check value of eight for x=2 y=1"""
     from series import sum_series
     assert sum_series(8, 2, 1) == 29
 
 def test_sum_series_five_three_one():
-    '''Test sequence is... 3, 1, 4, 5, 9, 14, 23'''
+    """Test sequence is... 3, 1, 4, 5, 9, 14, 23"""
     from series import sum_series
     assert sum_series(5, 3, 1) == 9
